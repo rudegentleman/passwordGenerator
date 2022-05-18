@@ -1,2 +1,2 @@
-# passwordGenerator
-This is a simple random password generator that I wrote out of necessity really. It's pretty straight forward and I hope it can benefit someone else out there.
+# Random Password Generator
+This is a simple random password generator that I wrote out of necessity really. It's pretty straight forward and I hope it can benefit someone else out there. The program takes in four arguments, number of letters, number of words, how many numbers as well as special characters. An initial password is generated based on user entry and then from this generated password, a random selection is done to generate a 16byte password which is in essence the final password.

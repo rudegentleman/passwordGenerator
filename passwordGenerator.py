@@ -34,7 +34,7 @@ def passwordGen(num_Letters, word_Input, char_Input, num_Input):
     if(num_Input > 0):
         for i in range(0, num_Input):
             password = password + str(random.choice(numbers))
-        print(password)
+        print('This is the password generated from your entries: ' + password)
     # To generate a 16 byte password, check if user didn't enter all zero values
     if(len(password) <= 0):
         print('Password should contain at least one word, a special character, a letters and/or a number.')
@@ -44,7 +44,7 @@ def passwordGen(num_Letters, word_Input, char_Input, num_Input):
         while(len(pazz) <16):
             pazz = pazz + random.choice(password)
         # Print final password
-        print('This is your password: '+ pazz)
+        print('This is your final password: '+ pazz)
 
 # Run the program
 passwordGen(numLetters, wordInput, charInput, numInput)
